@@ -1,0 +1,37 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+.login-page {
+  text-align: center;
+}
+
+.welcome-page {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
